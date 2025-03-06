@@ -1,0 +1,130 @@
+
+1.0&Peter-Sonar-Org_sonar-workshop-projectJavaFrontend"1741245704216*java2.Bª
+0
++src/main/java/demo/security/util/Utils.java2
+
+package4
+
+demo.security.util5
+
+demo.security.util.Utils7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+Utils12
+C
+=demo.security.util.Utils#generateKey()Ljava/security/KeyPair;14
+
+method15
+
+generateKey16
+>
+8demo.security.util.Utils#deleteFile(Ljava/lang/String;)V18
+
+
+deleteFile19
+%
+org.apache.commons.io.FileUtils21
+
+unknown22
+
+
+references23
+B
+<org.apache.commons.io.FileUtils#forceDelete(Ljava/io/File;)V25
+
+calls26
+
+
+uses27
+=
+7demo.security.util.Utils#executeJs(Ljava/lang/String;)V29
+
+	executeJs30
+-
+'demo.security.util.Utils#encrypt([B[B)V32
+
+encrypt33J
+
+1
+12Z
+
+3	
+354jë
+@
+31:
+313215 *
+1+ +(26:3B
+	
+9
+10
+
+
+11
+33
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+10
+
+
+11
+16
+@
+28:
+282915 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+30
+
+20
+202122
+@
+17:
+171815 *
+1   (26:3B
+	
+9
+10
+
+
+11
+19
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+24
+242522rQ
+
+172023*
+1"	 "(
+
+172426*
+1" "(
+
+172027*
+1"	 "(

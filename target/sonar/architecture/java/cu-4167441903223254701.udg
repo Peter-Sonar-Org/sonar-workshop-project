@@ -1,0 +1,202 @@
+
+1.0&Peter-Sonar-Org_sonar-workshop-projectJavaFrontend"1741245703768*java2.Bþ
+9
+4src/main/java/demo/security/servlet/UserServlet.java2
+
+package4
+
+demo.security.servlet5
+&
+!demo.security.servlet.UserServlet7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+UserServlet12
+
+ydemo.security.servlet.UserServlet#doGet(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V14
+
+method15
+
+	protected16
+
+doGet17
+ 
+demo.security.util.DBUtils19
+
+unknown20
+
+is type21
+
+
+uses22
+
+calls23
+
+
+references24
+N
+Hdemo.security.util.DBUtils#findUsers(Ljava/lang/String;)Ljava/util/List;26
+ƒ
+}demo.security.servlet.UserServlet#getSessionHeader(Ljavax/servlet/http/HttpServletRequest;)Ldemo/security/util/SessionHeader;28
+
+private29
+
+getSessionHeader30
+&
+ demo.security.util.SessionHeader32
+
+returns33
+,
+&org.apache.commons.codec.binary.Base6435
+O
+Iorg.apache.commons.codec.binary.Base64#decodeBase64(Ljava/lang/String;)[B37
+€
+zdemo.security.servlet.UserServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V39
+
+doPost40
+F
+@demo.security.util.SessionHeader#getUsername()Ljava/lang/String;42J
+
+1
+12Z
+
+3	
+354jù
+
+31
+313220
+
+18
+181920
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+25
+252620
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+
+41
+414220
+
+36
+363720
+@
+27:
+272815 *
+1$ $(26:3B
+	
+9
+29
+
+
+11
+30
+
+34
+343520
+@
+38:
+383915 *
+12 2(26:3B
+	
+9
+16
+
+
+11
+40rì
+
+131821*
+1 (
+
+131822*
+1 (
+
+131823*
+1 (%
+
+131824*
+1" ($
+
+132523*
+1% (.
+
+273133*
+1$ $(
+
+273122*
+1$ $(
+
+273424*
+1(" (((
+
+273623*
+1() ((5
+
+273422*
+1(" (((
+
+273122*
+1* *(&
+
+383121*
+14 4($
+
+383122*
+14	 4(
+
+383133*
+14' 4(7
+
+38624*
+14' 4(7
+
+382723*
+14' 4(7
+
+383124*
+16 6($
+
+384123*
+16% 6(0
+
+381821*
+18 8(
+
+381822*
+18 8(
+
+381823*
+18 8(%
+
+381824*
+19" 9($
+
+382523*
+19% 9(.

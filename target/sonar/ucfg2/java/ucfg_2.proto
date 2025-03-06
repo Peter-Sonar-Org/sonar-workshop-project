@@ -1,0 +1,106 @@
+
+}demo.security.servlet.UserServlet#getSessionHeader(Ljavax/servlet/http/HttpServletRequest;)Ldemo/security/util/SessionHeader;{
+q/Users/peterchang/Documents/Work/Acer/sonar-workshop-project/src/main/java/demo/security/servlet/UserServlet.java$ $(*"9*3
+3* *(6"$
+* *(7
+
+%7java.lang.Object*µ
+4) )(`r
+p
+) )(`
+injava.io.ObjectInputStream"__id*=
+
+__unknown_file (!
+
+%5java.io.ObjectInputStream¬©
+*' *(6
+%7java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*=
+
+__unknown_file (!
+
+injava.io.ObjectInputStream2readObject()*
+3*­
+5)' )(_HF
+)+ )(<
+%5java.io.ObjectInputStream"java.io.ObjectInputStreamÎ
+Ë
+)' )(_
+%6"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%5java.io.ObjectInputStream*@
+
+__unknown_file ($
+"
+%3java.io.ByteArrayInputStream*
+4*è
+6( ((BQ
+O
+( ((B
+decodedbyte[]"__id**
+
+__unknown_file (
+
+%2byte[]NL
+)A )(U"
+%3java.io.ByteArrayInputStream"java.io.ByteArrayInputStream°
+­
+)= )(^
+%4"(java.io.ByteArrayInputStream#<init>([B)V*@
+
+__unknown_file ($
+"
+%3java.io.ByteArrayInputStream*/
+
+__unknown_file (
+
+decodedbyte[]*
+5*‚
+7(! (('í
+ê
+(! ((A
+%2byte[]"Iorg.apache.commons.codec.binary.Base64#decodeBase64(Ljava/lang/String;)[B*F
+
+__unknown_file (*"(
+&org.apache.commons.codec.binary.Base64*=
+
+__unknown_file (!
+
+sessionAuthjava.lang.String*
+6*›
+9% %($™–
+% %(>
+%0java.lang.String"Ujavax.servlet.http.HttpServletRequest#getHeader(Ljava/lang/String;)Ljava/lang/String;*N
+
+__unknown_file (2
+0
+request%javax.servlet.http.HttpServletRequest*,
+
+__unknown_file (
+Session-Auth2getHeader(Ljava/lang/String;)i
+g
+% %(?
+sessionAuthjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String}
+{
+& &(
+%1boolean"	__compare*
+& &(
+!=*-
+& &(!
+
+sessionAuthjava.lang.String*
+& &(
+""*
+7
+1*!
+1/ /("
+/ /(
+"":<
+$+ $(E0
+request%javax.servlet.http.HttpServletRequestB%#
+!demo.security.servlet.UserServlet

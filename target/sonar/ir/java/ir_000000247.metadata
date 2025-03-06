@@ -1,0 +1,7 @@
+demo.security.servlet.Insecure#hotspotSQL(Ljava/sql/Connection;Ljava/lang/String;)Ljava/lang/String;
+false
+bbd3e9856840e0c57e2cbda94946d3e8
+==
+createStatement java.sql.Connection#createStatement()Ljava/sql/Statement;
+executeQuery java.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;
+getString java.sql.ResultSet#getString(I)Ljava/lang/String;

@@ -1,0 +1,10 @@
+demo.security.util.Utils#encrypt([B[B)V
+false
+3ebe8101c36c7a684fbea2884bb95c31
+java.lang.String#getBytes(Ljava/lang/String;)[B
+javax.crypto.Cipher#getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+javax.crypto.Cipher#init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+javax.crypto.spec.GCMParameterSpec#<init>(I[B)V
+javax.crypto.spec.GCMParameterSpec#instance-init#
+javax.crypto.spec.SecretKeySpec#<init>([BLjava/lang/String;)V
+javax.crypto.spec.SecretKeySpec#instance-init#

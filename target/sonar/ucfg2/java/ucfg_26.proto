@@ -1,0 +1,18 @@
+
+Mdemo.security.servlet.Insecure#getInput(Ljava/lang/String;)Ljava/lang/String;x
+n/Users/peterchang/Documents/Work/Acer/sonar-workshop-project/src/main/java/demo/security/servlet/Insecure.java6 6("1*­
+1: :(x
+v
+: :($
+%0java.lang.String"__concat* 
+: :(
+Hello World and *&
+:  :($
+
+namejava.lang.String"$
+: :(%
+
+%0java.lang.String:$
+6 6($
+namejava.lang.StringB" 
+demo.security.servlet.InsecureH

@@ -1,0 +1,86 @@
+
+1.0&Peter-Sonar-Org_sonar-workshop-projectJavaFrontend"1741245704397*java2.B¤
+9
+4src/main/java/demo/security/servlet/FileServlet.java2
+
+package4
+
+demo.security.servlet5
+&
+!demo.security.servlet.FileServlet7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+FileServlet12
+€
+zdemo.security.servlet.FileServlet#doPost(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V14
+
+method15
+
+	protected16
+
+doPost17
+
+demo.security.util.Utils19
+
+unknown20
+
+
+references21
+>
+8demo.security.util.Utils#deleteFile(Ljava/lang/String;)V23
+
+calls24
+
+
+uses25J
+
+1
+12Z
+
+3	
+354j¥
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+22
+222320
+
+18
+181920rQ
+
+131821*
+1	 (
+
+132224*
+1 (
+
+131825*
+1	 (

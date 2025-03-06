@@ -1,0 +1,11 @@
+demo.security.util.DBUtils#findUsers(Ljava/lang/String;)Ljava/util/List;
+false
+371787fee699375be24e0893f71e3aea
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+add java.util.List#add(Ljava/lang/Object;)Z
+createStatement java.sql.Connection#createStatement()Ljava/sql/Statement;
+executeQuery java.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;
+getString java.sql.ResultSet#getString(I)Ljava/lang/String;
+next java.sql.ResultSet#next()Z

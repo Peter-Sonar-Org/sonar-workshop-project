@@ -1,0 +1,8 @@
+demo.security.servlet.Insecure#doSomethingSanitized()V
+false
+dfadf2ee16c4dea8a09c8e8e73dbdea2
+==
+getInput demo.security.servlet.Insecure#getInput(Ljava/lang/String;)Ljava/lang/String;
+processParam demo.security.servlet.Insecure#processParam(Ljava/lang/String;)V
+storeData demo.security.servlet.Insecure#storeData(Ljava/lang/String;)V
+verifyData demo.security.servlet.Insecure#verifyData(Ljava/lang/String;)V

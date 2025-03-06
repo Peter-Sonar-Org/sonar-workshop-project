@@ -1,0 +1,72 @@
+
+1.0&Peter-Sonar-Org_sonar-workshop-projectJavaFrontend"1741245704065*java2.BÑ
+3
+.src/main/java/demo/security/util/WebUtils.java2
+
+package4
+
+demo.security.util5
+ 
+demo.security.util.WebUtils7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+WebUtils12
+z
+tdemo.security.util.WebUtils#addCookie(Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;Ljava/lang/String;)V14
+
+method15
+
+	addCookie16
+X
+Rdemo.security.util.WebUtils#getSessionId(Ljavax/servlet/http/HttpServletRequest;)V18
+
+getSessionId19J
+
+1
+12Z
+
+3	
+354j¿
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+10
+
+
+11
+16
+@
+17:
+171815 *
+1 (26:3B
+	
+9
+10
+
+
+11
+19
+9
+64
+678 *
+1
+ 
+(:3B
+	
+9
+10
+
+
+11
+12

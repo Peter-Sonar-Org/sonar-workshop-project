@@ -1,0 +1,8 @@
+demo.security.servlet.Insecure#taintedSQL(Ljavax/servlet/http/HttpServletRequest;Ljava/sql/Connection;)Ljava/lang/String;
+false
+2a7256d702d29c051d6d05fbf46a8d3f
+==
+createStatement java.sql.Connection#createStatement()Ljava/sql/Statement;
+executeQuery java.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;
+getParameter javax.servlet.ServletRequest#getParameter(Ljava/lang/String;)Ljava/lang/String;
+getString java.sql.ResultSet#getString(I)Ljava/lang/String;
